@@ -1,4 +1,4 @@
-# Express Server with TypeScript
+# Forms App Backend
 
 This is an Express server built with TypeScript that provides three main endpoints: `/ping`, `/submit`, and `/read`. 
 The server uses a JSON file as a database to store form submissions.
