@@ -28,7 +28,7 @@ This project includes optional features like deleting and editing submissions, a
 1. Clone the repository:
     ```bash
     git clone https://github.com/shrey258/formsAppBackend.git
-    cd your-repo-name
+    cd formsAppBackend
     ```
 
 2. Install dependencies:
