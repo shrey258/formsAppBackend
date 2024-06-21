@@ -20,8 +20,6 @@ This project includes optional features like deleting and editing submissions, a
   - [Deletion of Submissions](#deletion-of-submissions)
   - [Editing Submissions](#editing-submissions)
   - [Searching by Email](#searching-by-email)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
