@@ -55,6 +55,7 @@ The server will be running on `http://localhost:3000`.
 - **Method**: GET
 - **Description**: Always returns `true` to indicate the server is running.
 - **Response**: `true`
+- `http://localhost:3000/ping`
 
 ### /submit
 
@@ -71,6 +72,7 @@ The server will be running on `http://localhost:3000`.
     }
     ```
 - **Response**: `Submission successful`
+- - `http://localhost:3000/submit`
 
 ### /read
 
@@ -78,6 +80,8 @@ The server will be running on `http://localhost:3000`.
 - **Description**: Reads a form submission by its index.
 - **Query Parameter**: `index` (0-based)
 - **Response**: JSON object with the form submission
+- `http://localhost:3000/read?index=0`
+
 
 ### /delete
 
@@ -85,6 +89,8 @@ The server will be running on `http://localhost:3000`.
 - **Description**: Deletes a form submission by its index.
 - **Query Parameter**: `index` (0-based)
 - **Response**: `Deletion successful`
+- `http://localhost:3000/delete?index=2`
+
 
 ### /edit
 
@@ -93,6 +99,7 @@ The server will be running on `http://localhost:3000`.
 - **Query Parameter**: `index` (0-based)
 - **Request Body**: Any combination of the form fields to update
 - **Response**: `Edit successful`
+- `http://localhost:3000/edit?index=2`
 
 ### /search
 
@@ -100,6 +107,7 @@ The server will be running on `http://localhost:3000`.
 - **Description**: Searches for form submissions by email.
 - **Query Parameter**: `email`
 - **Response**: JSON array of matching form submissions
+- `http://localhost:3000/search?email=<emai-name>`
 
 ## Database Structure
 
