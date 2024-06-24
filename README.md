@@ -72,7 +72,7 @@ The server will be running on `http://localhost:3000`.
     }
     ```
 - **Response**: `Submission successful`
-- - `http://localhost:3000/submit`
+- `http://localhost:3000/submit`
 
 ### /read
 
